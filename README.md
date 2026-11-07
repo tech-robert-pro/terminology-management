@@ -29,17 +29,16 @@ Terminology drift is the silent killer of documentation quality. When the same f
 /
 ├── README.md                     # This file
 ├── glossaries/
-│   ├── master-terminology.xlsx   # Controlled vocabulary spreadsheet
-│   ├── approved-terms.md         # Approved terminology list
+    ├── approved-terms.md         # Approved terminology list
+│   ├── sample-glossary.csv   # Controlled vocabulary spreadsheet
 │   └── deprecated-terms.md       # Retired terms with migration notes
 ├── workflows/
 │   ├── term-submission-form.md   # Template for requesting new terms
 │   ├── approval-process.md       # How new terms get vetted
 │   └── localization-handoff.md   # Glossary export for translators
-├── style-guide/
-│   ├── voice-and-tone.md         # Writing conventions
-│   ├── grammar-rules.md          # Syntax standards
-│   └── capitalization-guidelines.md
+├── tooling/
+│   ├── term_validator.py        
+│   └── rules.json
 ├── product-specific/
 │   ├── monitor-terminology.md    # Monitor product glossary
 │   ├── projector-terminology.md  # Projector product glossary
