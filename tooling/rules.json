@@ -1,0 +1,37 @@
+{
+  "standard": "glossaries/approved-terms.md v4.2",
+  "generated_from": "glossaries/deprecated-terms.md",
+  "forbidden": [
+    { "term": "onscreen menu",    "replacement": "on-screen display" },
+    { "term": "settings menu",    "replacement": "on-screen display" },
+    { "term": "control menu",     "replacement": "on-screen display" },
+    { "term": "AC adapter",       "replacement": "power adapter" },
+    { "term": "power brick",      "replacement": "power adapter" },
+    { "term": "charger",          "replacement": "power adapter" },
+    { "term": "sleep mode",       "replacement": "standby mode" },
+    { "term": "power-saving mode", "replacement": "standby mode" },
+    { "term": "shortcut key",     "replacement": "hotkey" },
+    { "term": "quick key",        "replacement": "hotkey" },
+    { "term": "input channel",    "replacement": "input source" },
+    { "term": "video input",      "replacement": "input source" },
+    { "term": "lamp hours",       "replacement": "light source hours" },
+    { "term": "lamp timer",       "replacement": "light source hours" },
+    { "term": "projection distance", "replacement": "throw distance" },
+    { "term": "trapezoid fix",    "replacement": "keystone correction" },
+    { "term": "screen rotation",  "replacement": "pivot" },
+    { "term": "eye-care",         "replacement": "(marketing claim — banned in docs)" },
+    { "term": "wall display",     "replacement": "video wall" },
+    { "term": "monitor",          "replacement": "display" }
+  ],
+  "allow_in_paths": [
+    "glossaries/deprecated-terms.md",
+    "glossaries/sample-glossary.csv",
+    "samples/before-after-example.md",
+    "workflows/term-submission-form.md",
+    "workflows/approval-process.md",
+    "workflows/localization-handoff.md",
+    "product-specific/",
+    "tooling/"
+  ],
+  "exemption_note": "These paths legitimately reference deprecated terms (register, examples, rule definitions themselves). Additions to this list require a note in the commit message explaining why."
+}
