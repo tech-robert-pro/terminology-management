@@ -1,0 +1,13 @@
+term_id,preferred_term,part_of_speech,domain,definition,forbidden_alternatives,do_not_translate,status,supersedes
+TERM-001,display,noun,general,Primary visual output device encompassing monitors and large-format panels,"monitor; screen; panel; unit",FALSE,active,
+TERM-002,on-screen display,noun,general,Menu system rendered by the display and navigated with physical controls or remote,"settings menu; control menu; onscreen menu",TRUE,active,
+TERM-003,input source,noun,general,Signal entry point currently feeding the display,"input channel; video input; signal select",FALSE,active,
+TERM-004,hotkey,noun,general,Physical button invoking a shortcut function such as input switching,"shortcut key; quick key; function button",TRUE,active,
+TERM-005,power adapter,noun,general,External AC-to-DC converter supplied with the product,"power brick; AC adapter; charger",FALSE,active,TERM-009
+TERM-006,standby mode,noun,general,Low-power state entered when no active signal is present,"sleep mode; power-saving mode",FALSE,active,TERM-010
+TERM-007,keystone correction,noun,projector,Digital or optical adjustment compensating for trapezoidal image distortion,"angle adjustment; trapezoid fix",FALSE,active,
+TERM-008,light source hours,noun,projector,Cumulative operating time of the illumination source,"lamp timer; usage time",FALSE,active,TERM-011
+TERM-009,AC adapter,noun,general,(Deprecated) former term for the external power converter,,FALSE,deprecated,TERM-005
+TERM-010,sleep mode,noun,general,(Deprecated) former term for the low-power signal state,,FALSE,deprecated,TERM-006
+TERM-011,lamp hours,noun,projector,(Deprecated) former lamp-specific usage counter,,FALSE,deprecated,TERM-008
+TERM-012,video wall,noun,large-format,Multiple displays tiled to operate as a single logical canvas,"wall display; tiled display array",TRUE,active,
