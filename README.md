@@ -1,6 +1,6 @@
 # Terminology Management
 
-> Controlled vocabulary system for hardware documentation: standardized glossaries and terminology conventions across monitor, projector, and display product lines. Reduces translation costs and support friction.
+> Controlled vocabulary system for hardware documentation: standardized glossaries and terminology conventions across monitor, projector, interactive display, and LED video wall product lines. Reduces translation costs and support friction.
 
 ![Status](https://img.shields.io/badge/status-maintained-brightgreen)
 ![Localization](https://img.shields.io/badge/localization-ready-blue)
@@ -18,7 +18,7 @@ Terminology drift is the silent killer of documentation quality. When the same f
 | **Role** | Sole author and maintainer |
 | **Duration** | Over 8 years of continuous maintenance |
 | **Scope** | Multi-product glossaries, term approval workflows, localization handoff procedures |
-| **Product Categories** | Monitors, projectors, large-format displays |
+| **Product Categories** | Monitors, projectors, large-format displays, LED video walls (DvLED) |
 | **Status** | Active |
 
 ---
@@ -81,7 +81,6 @@ Glossaries were structured for translator consumption, not just writer reference
 ## Outcome
 
 - Eliminated **term drift across three product lines** by centralizing vocabulary in a single master glossary.
-- Reduced **translation review cycles** by providing translators with approved term lists upfront.
 - Standardized **100+ key technical terms** that appeared consistently across 900+ user manuals.
 - Enabled **reusable translation memory segments** that lowered localization costs.
 
