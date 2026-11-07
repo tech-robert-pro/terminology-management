@@ -9,14 +9,14 @@
 
 ## Overview
 
-Terminology drift is the silent killer of documentation quality. When the same feature gets three different names across product lines, customers get confused, translators charge more, and support tickets multiply. This repository holds the controlled vocabulary framework that eliminated that problem for 900+ user manuals over 9 years.
+Terminology drift is the silent killer of documentation quality. When the same feature gets three different names across product lines, customers get confused, translators charge more, and support tickets multiply. This repository holds the controlled vocabulary framework that eliminated that problem for 900+ user manuals over 8 years.
 
 **At a glance:**
 
 | Attribute | Detail |
 | :--- | :--- |
 | **Role** | Sole author and maintainer |
-| **Duration** | 9 years of continuous maintenance |
+| **Duration** | Over 8 years of continuous maintenance |
 | **Scope** | Multi-product glossaries, term approval workflows, localization handoff procedures |
 | **Product Categories** | Monitors, projectors, large-format displays |
 | **Status** | Active |
